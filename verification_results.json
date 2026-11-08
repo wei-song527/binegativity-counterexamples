@@ -1,0 +1,40 @@
+{
+  "local_amplitude_damping": {
+    "input_N2": "54/47125",
+    "output_N2": "1248/1047625",
+    "gain": "618/13619125",
+    "ratio": "2704/2601",
+    "minimum_eigenvalues": [
+      3.677715914134831e-06,
+      1.4390606040621008e-06
+    ]
+  },
+  "one_way_LOCC": {
+    "input_N2": "9/221",
+    "output_N2": "20/459",
+    "gain": "1/351",
+    "ratio": "260/243",
+    "minimum_eigenvalues": [
+      0.0,
+      0.0
+    ],
+    "probabilities": [
+      "565/1377",
+      "812/1377"
+    ]
+  },
+  "full_rank_one_way_LOCC": {
+    "input_N2": "603/28730",
+    "output_N2": "872/38675",
+    "gain": "1567/1005550",
+    "ratio": "22672/21105",
+    "minimum_eigenvalues": [
+      0.007239819004524889,
+      0.007239819004524889
+    ]
+  },
+  "continuous_family_grid_points": 301,
+  "max_family_formula_error": 8.326672684688674e-17,
+  "earlier_input_family_checks": 429,
+  "convention": "N=||rho^Gamma||_1-1; N2=Tr[(rho^Gamma)_-]+2Tr[(((rho^Gamma)_-)^Gamma)_-]"
+}

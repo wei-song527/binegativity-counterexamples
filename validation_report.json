@@ -1,0 +1,59 @@
+{
+  "article_title": "Two-qubit binegativity can increase under local amplitude damping",
+  "authors": [
+    "Xiao-Lan Zong",
+    "Wei Song",
+    "Ming Yang"
+  ],
+  "release_date": "2026-11-07",
+  "started_at": "2026-11-07T17:55:34.693355+08:00",
+  "completed_at": "2026-11-07T17:55:37.686879+08:00",
+  "timezone": "Asia/Shanghai",
+  "command": "python3 -B verify_binegativity.py",
+  "working_directory_differs_from_script_directory": true,
+  "python_version": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "exit_status": 0,
+  "elapsed_seconds": 2.994,
+  "comparison_to_supplied_results": {
+    "status": "PASS",
+    "rational_strings_and_other_exact_fields": "identical",
+    "floating_point_absolute_tolerance": 1e-14,
+    "exact_fields": 17,
+    "floating_fields": 7,
+    "floating_point_differences": {}
+  },
+  "assertion_mode_guard_test": "PASS: python -O rejected before verification",
+  "coverage": {
+    "exact_counterexamples": 3,
+    "continuous_family_grid_points": 301,
+    "derivative_expression_grid_points": 101,
+    "earlier_input_family_checks": 429,
+    "figure_grid_points": 1001
+  },
+  "generated_files": [
+    "verification_results.json",
+    "binegativity_damping.pdf",
+    "binegativity_damping.png"
+  ],
+  "figure_files_in_archive": false,
+  "source_files": {
+    "verify_binegativity_pra.py": {
+      "sha256": "275f00b0581c43c411f6345eaa503987815d587bfab440e6494259652ecd6182"
+    },
+    "verification_results.json": {
+      "sha256": "543e49351d13055437a182c77823bfc77eb31c820f99076be27dc4ea5e9900b9"
+    }
+  },
+  "program_changes": [
+    "Renamed verify_binegativity_pra.py to verify_binegativity.py.",
+    "Updated module docstring to refer to the article title and current filename.",
+    "Added a guard against disabled Python assertions.",
+    "All function definitions are unchanged."
+  ],
+  "scope": "Exact rational checks of three finite counterexamples; floating-point consistency checks, parameter grids and figure generation. The continuum proof remains in the article."
+}
